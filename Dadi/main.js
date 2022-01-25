@@ -4,10 +4,10 @@ start.addEventListener('click',
 
     function(){
 
-        const numberUsr = Math.floor(Math.random() * 5 + 1);
+        const numberUsr = Math.floor(Math.random() * 6 + 1);
         console.log(numberUsr);
         
-        const numberPc = Math.floor(Math.random() * 5 + 1);
+        const numberPc = Math.floor(Math.random() * 6 + 1);
         console.log(numberPc);
         
         const resultUsr = document.getElementById('resultUsr');

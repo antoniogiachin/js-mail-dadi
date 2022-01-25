@@ -11,10 +11,28 @@ button.addEventListener('click',
                 
         const mail = document.getElementById('mail').value;                
         
-        if(mailList.includes(mail)){
-            alert('Bentornato Sir!')
-        } else {
-            alert('Inserisci una mail valida!')
+        for (let i = 0 ; i < mailList.length; i++){
+
+            switch (mail){
+                case mailList[0]:
+                    console.log(mail)
+                case mailList[1]:
+                    console.log(mail)
+                    
+                case mailList[2]:
+                    console.log(mail)
+
+                alert('benvenuto')
+                    break;
+                default:
+                    alert('scio')
+                    break;            
+            }
+
+            
+
+
+
         }
         
     }
