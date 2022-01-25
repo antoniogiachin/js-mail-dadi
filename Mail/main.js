@@ -13,28 +13,18 @@ button.addEventListener('click',
         
         for (let i = 0 ; i < mailList.length; i++){
 
-            switch (mail){
-                case mailList[0]:
-                    console.log(mail)
-                case mailList[1]:
-                    console.log(mail)
-                    
-                case mailList[2]:
-                    console.log(mail)
-
-                alert('benvenuto')
-                    break;
-                default:
-                    alert('scio')
-                    break;            
+            if (mail == mailList[i]){
+                var  pass = true;
+                console.log(true);
             }
-
-            
-
-
 
         }
         
+        if (pass == true){
+            alert('Bentornato Signore!');
+        } else {
+            alert ('Pussa via!');
+        }
     }
 
 );
