@@ -11,16 +11,18 @@ button.addEventListener('click',
                 
         const mail = document.getElementById('mail').value;                
         
+        let trovato = false;
+        // Definisco un let fuori dal ciclo for
         for (let i = 0 ; i < mailList.length; i++){
 
             if (mail == mailList[i]){
-                var  pass = true;
-                console.log(true);
+                trovato = true;
+                // Variabile booleana
             }
 
         }
         
-        if (pass == true){
+        if (trovato){
             alert('Bentornato Signore!');
         } else {
             alert ('Pussa via!');
